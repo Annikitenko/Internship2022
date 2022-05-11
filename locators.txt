@@ -1,0 +1,56 @@
+https://demo.opencart.com/admin
+//a[@href='https://demo.opencart.com/admin/index.php?route=common/dashboard']
+//form
+//form[@action='https://demo.opencart.com/admin/index.php?route=common/login']
+//form[@action='https://demo.opencart.com/admin/index.php?route=common/login']/*[1]/*[2]/*[1]/*[1]
+//i[@class='fa fa-user']
+//form[@action='https://demo.opencart.com/admin/index.php?route=common/login']/*[last()]
+//img
+//img[@title='OpenCart']
+//button[@type='submit']
+//button[@class='btn btn-primary']
+//div[@class='panel-heading']
+//div[@class='form-group'][2]
+//div[@class='form-group'][last()]
+//*[count(*)=3]
+//div[@id='container']/*[3]
+//div[@id='container']/*[last()]
+//div[starts-with(@class, 'form')]
+//a[contains(@href, 'opencart')]
+//a[contains(text(), 'Password')]
+//input[@name='username']
+//input[@id='input-password']
+//text()
+//*[@id='container' or @class='row']
+//a[contains(@href, 'opencart') or contains(text(), 'Password')]
+
+/html/body
+
+
+css
+
+body
+body>div[id=container]>div[id=content]>div[class=container-fluid]>div[class=row]
+
+div[id*=cont]
+div[class^=panel]
+#input-username
+input[name=username]
+button[type=submit]
+header#header
+img
+.navbar-header
+div#container, div#header-logo
+a[href='https://demo.opencart.com/admin/index.php?route=common/dashboard']
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+//ul[@id='p-navigation']/li[3]
+//table[@class='wikitable']/tbody/tr[2]/td[2]
+
+
+
